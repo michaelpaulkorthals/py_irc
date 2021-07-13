@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Raspberry Pi Infrared Remote Control Circuits"
+Title "Raspberry Pi Infrared Remote Control Circuit"
 Date "2021-07-13"
 Rev "1.0"
 Comp "Michael Paul Korthals"
@@ -156,7 +156,7 @@ F 3 "~" H 3000 1750 50  0001 C CNN
 	1    3000 1750
 	0    1    1    0   
 $EndComp
-Text Label 1000 1300 0    236  ~ 0
+Text Label 950  1150 0    236  ~ 0
 Receiver
 Text Label 1000 4250 0    236  ~ 0
 Transmitter
