@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name irc)(type Legacy)(uri C:/Users/Paul/eclipse-workspace/controller8-irrcd/irc_circuit/My_Interface_Optical.lib)(options "")(descr "Contains the VS1838 IR Remote Control Receiver"))
+)

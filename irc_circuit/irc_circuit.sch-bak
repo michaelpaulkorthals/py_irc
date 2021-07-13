@@ -1,0 +1,229 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_BJT:BC547 Q1
+U 1 1 60EFC544
+P 4300 2200
+F 0 "Q1" H 4491 2246 50  0000 L CNN
+F 1 "BC547B" H 4491 2155 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4500 2125 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" H 4300 2200 50  0001 L CNN
+	1    4300 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4400 2000
+Wire Wire Line
+	4900 2650 7000 2650
+Connection ~ 4900 2650
+Wire Wire Line
+	4900 2500 4900 2650
+Wire Wire Line
+	4400 2650 4900 2650
+Wire Wire Line
+	4900 2000 4400 2000
+Wire Wire Line
+	4900 2200 4900 2000
+$Comp
+L Device:LED LED1
+U 1 1 60EFE7A8
+P 4900 2350
+F 0 "LED1" V 4939 2232 50  0000 R CNN
+F 1 "yellow (receiving)" V 4848 2232 50  0000 R CNN
+F 2 "" H 4900 2350 50  0001 C CNN
+F 3 "~" H 4900 2350 50  0001 C CNN
+	1    4900 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 2050 5550 2050
+Wire Wire Line
+	4400 1450 7000 1450
+Wire Wire Line
+	4400 1700 4400 1450
+Connection ~ 2700 2650
+Wire Wire Line
+	2000 2650 2000 2500
+Wire Wire Line
+	2700 2650 2000 2650
+Wire Wire Line
+	7000 2650 7000 2350
+$Comp
+L Connector:Conn_01x01_Female J4
+U 1 1 60F0CAC1
+P 7200 2350
+F 0 "J4" H 7228 2376 50  0000 L CNN
+F 1 "0 V" H 7228 2285 50  0000 L CNN
+F 2 "" H 7200 2350 50  0001 C CNN
+F 3 "~" H 7200 2350 50  0001 C CNN
+	1    7200 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J1
+U 1 1 60F0BD8F
+P 7200 1450
+F 0 "J1" H 7228 1476 50  0000 L CNN
+F 1 "+5 V" H 7228 1385 50  0000 L CNN
+F 2 "" H 7200 1450 50  0001 C CNN
+F 3 "~" H 7200 1450 50  0001 C CNN
+	1    7200 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 4400 2650
+Connection ~ 3250 2650
+Wire Wire Line
+	4400 2650 4400 2400
+Wire Wire Line
+	3250 2650 4400 2650
+Wire Wire Line
+	3250 2650 3250 2150
+Wire Wire Line
+	2700 2650 3250 2650
+Connection ~ 2700 1800
+Wire Wire Line
+	2000 1800 2000 2100
+Wire Wire Line
+	2700 1800 2000 1800
+Connection ~ 3250 1800
+Wire Wire Line
+	2700 1800 2700 2350
+Wire Wire Line
+	3250 1800 2700 1800
+Wire Wire Line
+	3250 1800 3250 1850
+Wire Wire Line
+	3900 1800 3250 1800
+Connection ~ 5550 1750
+Wire Wire Line
+	4200 1750 4200 1800
+Wire Wire Line
+	5550 1750 4200 1750
+Wire Wire Line
+	7000 1750 5550 1750
+$Comp
+L Connector:Conn_01x01_Female J2
+U 1 1 60F09437
+P 7200 1750
+F 0 "J2" H 7228 1776 50  0000 L CNN
+F 1 "+3.3 V" H 7228 1685 50  0000 L CNN
+F 2 "" H 7200 1750 50  0001 C CNN
+F 3 "~" H 7200 1750 50  0001 C CNN
+	1    7200 1750
+	1    0    0    -1  
+$EndComp
+Connection ~ 5550 2050
+Wire Wire Line
+	5550 2050 7000 2050
+$Comp
+L Connector:Conn_01x01_Female J3
+U 1 1 60F07E35
+P 7200 2050
+F 0 "J3" H 7228 2076 50  0000 L CNN
+F 1 "GPIO17 (BCM)" H 7228 1985 50  0000 L CNN
+F 2 "" H 7200 2050 50  0001 C CNN
+F 3 "~" H 7200 2050 50  0001 C CNN
+	1    7200 2050
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 2200
+Wire Wire Line
+	3800 2200 3800 2050
+Wire Wire Line
+	3800 2300 3800 2200
+Wire Wire Line
+	2000 2300 3800 2300
+$Comp
+L Device:R R4
+U 1 1 60F001A7
+P 5550 1900
+F 0 "R4" H 5620 1946 50  0000 L CNN
+F 1 "22 K" H 5620 1855 50  0000 L CNN
+F 2 "" V 5480 1900 50  0001 C CNN
+F 3 "~" H 5550 1900 50  0001 C CNN
+	1    5550 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L irc:VS1838B InfraredReceiver
+U 1 1 60EDC766
+P 1600 2300
+F 0 "InfraredReceiver" H 1588 2725 50  0000 C CNN
+F 1 "VS1838B" H 1588 2634 50  0000 C CNN
+F 2 "OptoDevice:Vishay_MOLD-3Pin" H 1550 1925 50  0001 C CNN
+F 3 "" H 2250 2600 50  0001 C CNN
+	1    1600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 60EFABC1
+P 3950 2200
+F 0 "R2" V 3743 2200 50  0000 C CNN
+F 1 "100 K" V 3834 2200 50  0000 C CNN
+F 2 "" V 3880 2200 50  0001 C CNN
+F 3 "~" H 3950 2200 50  0001 C CNN
+	1    3950 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 60EFDAE3
+P 4400 1850
+F 0 "R3" H 4470 1896 50  0000 L CNN
+F 1 "820 R" H 4470 1805 50  0000 L CNN
+F 2 "" V 4330 1850 50  0001 C CNN
+F 3 "~" H 4400 1850 50  0001 C CNN
+	1    4400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 60EF8CDA
+P 3250 2000
+F 0 "C2" H 3368 2046 50  0000 L CNN
+F 1 "100 uF" H 3368 1955 50  0000 L CNN
+F 2 "" H 3288 1850 50  0001 C CNN
+F 3 "~" H 3250 2000 50  0001 C CNN
+	1    3250 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 60EF81A0
+P 2700 2500
+F 0 "C1" H 2815 2546 50  0000 L CNN
+F 1 "100 nF" H 2815 2455 50  0000 L CNN
+F 2 "" H 2738 2350 50  0001 C CNN
+F 3 "~" H 2700 2500 50  0001 C CNN
+	1    2700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 60EF7799
+P 4050 1800
+F 0 "R1" V 3843 1800 50  0000 C CNN
+F 1 "100 R" V 3934 1800 50  0000 C CNN
+F 2 "" V 3980 1800 50  0001 C CNN
+F 3 "~" H 4050 1800 50  0001 C CNN
+	1    4050 1800
+	0    1    1    0   
+$EndComp
+Text Label 1000 1300 0    236  ~ 0
+Receiver
+Text Label 1000 4250 0    236  ~ 0
+Transmitter
+$EndSCHEMATC
