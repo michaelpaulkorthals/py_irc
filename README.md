@@ -30,3 +30,8 @@ The complete device could look like this:
 ![Infrared Remote control inside](https://github.com/michaelpaulkorthals/py_irc/blob/main/images/rpi_irc_2.png)
 
 This prototype I have successfully in operation since November 2020.
+
+As an exoierienced DIY home automation expert, you are capable to build this device easiy on a rainy weekend.
+
+Please note:
+The photo above shows an in-build switching power supply, which converts the power from 230V AC to 5V DC. This needs the skills of a licences Ham Radio operator, electrician, electrical or electronic engineer. If you don't have one of these competences, you must replace this by an commercially available plug-in power supply for Raspberry Pi with a low voltage power cord to the device. Keep every time in mind that open voltages over 40 V (e.g. 110 V AC or 230 V AC from the power grid) could cause deadly injuries.
