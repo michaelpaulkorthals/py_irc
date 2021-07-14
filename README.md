@@ -14,7 +14,7 @@ In order to optimize this situation, it is desirable to combine the individual o
    * Enable 4K HDMI to analog 7.1 extractor
    * Switch on dynamic compressor for channels FL, FR, CENTER, SUBW
    * Switch on dynamic compressor for channels SL, SR, RL, RR
-   * Switch 7 speakers and a subwoofer to the analog amplifier
+   * Switch 7 speakers and a subwoofer line-out to the analog amplifier
    * Switch on analog amplifier 7.1
    * Adjust the sound volume accordingly depending on the time of day
    * Switch the subwoofer off
