@@ -40,7 +40,7 @@ The photo above shows an in-build switching power supply, which converts the pow
 > Keep every time in mind that open voltages over 40 V (e.g. 110 V AC or 230 V AC from the power grid) could cause deadly injuries.
 
 Study the [schematic diagrams](https://github.com/michaelpaulkorthals/py_irc/blob/main/irc_circuit/irc_circuit.pdf) and data sheets of my infrared remote control in the [irc_circuit folder](https://github.com/michaelpaulkorthals/py_irc/tree/main/irc_circuit).
-May this help your to find a way to design your own device. In the event that you want to adapt the circuit to your own needs or capabilities, I have also stored the files of my ["KiCad"](https://www.kicad.org/) project there.
+May this help you to find a way to design your own device. In the event that you want to adapt the circuit to your own needs or capabilities, I have also uploaded the files of my ["KiCad"](https://www.kicad.org/) project there.
 
 ## Software ##
 
