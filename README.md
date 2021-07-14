@@ -21,7 +21,10 @@ In order to optimize this situation, it is desirable to combine the individual o
    * Open the Bluray Player drive
    * Switch off the lights or roll down the blinds depending on the time of day
 
+## Hardware ##
+
 This requires to build up and LAMP Server on a headless Raspberry Pi Zero W. This webserver will provide the website with that and further macro buttons on your mobile phone or tablet. 
+
 In addition the Raspberry Pi Zero W must be extended by IR Receiver and Transmitter circuits and a 5 V power supply. 
 
 The complete device could look like this:
