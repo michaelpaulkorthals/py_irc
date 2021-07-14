@@ -30,7 +30,7 @@ The complete device could look like this:
 
 ![Infrared Remote control inside](https://github.com/michaelpaulkorthals/py_irc/blob/main/images/rpi_irc_2.png)
 
-This prototype I have successfully in operation since November 2020.
+This prototype I have successfully in operation in my home theatre since November 2020.
 
 As an expierienced DIY home automation expert, you are capable to build this device easily and to have fun on a rainy weekend.
 
