@@ -3,7 +3,7 @@ Python infrared remote control utilities for Raspberry Pi
 
 In the home theater, the devices (e.g. Bluray player, projector, monitor, amplifier, lights, etc.) are usually controlled with infrared remote controls. The problem is that the operation of these devices is completely different and separated. Each device is controlled with its own remote control. This turns the home theater into an uncomfortable, complex technical workplace until the movie is shown.
 
-In order to optimize this situation, it is desirable to combine the individual operating procedures at the push of a button, e.g.:
+In order to optimize this situation, it is desirable to combine the individual operating procedures at the push of a single button, e.g.:
  * Play the movie with the projector on the screen in a quiet sound mix
    * Configure the 4x4 4K HDMI Matrix to connect the devices:
      * Input: 4K Bluray Player
