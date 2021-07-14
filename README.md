@@ -61,7 +61,7 @@ In sending IR signals with "irc-send.py", I use the same raw signal approach lik
 
 But with this software I go beyond LIRC and "irrp.py". It is capable to precisely immitate the remote controls with double layer protocols, which are build for newer Japanese middle and high class consumer electronics devices.
 
-Please use the "--help" parameter to get information about the freatures of the utilities.
+Please use the "--help" parameter to get information about the features of the utilities.
 
 The really smart module is "irc_api.py". Integrate it into a secure TLS TCP/IP daemon to receive IR signal requests from your home theatre web application.
 
