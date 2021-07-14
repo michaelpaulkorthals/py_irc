@@ -1,7 +1,7 @@
 # py_irc
 Python infrared remote control utilities for Raspberry Pi
 
-In the home theater, the devices (e.g. Bluray player, projector, monitor, amplifier, lighting, etc.) are usually controlled with infrared remote controls. The problem is that the operation of these devices is completely different and separated. Each device is controlled with its own remote control. This turns the home theater into an uncomfortable, complex technical workplace until the movie is shown.
+In the home theater, the devices (e.g. Bluray player, projector, monitor, amplifier, lights, etc.) are usually controlled with infrared remote controls. The problem is that the operation of these devices is completely different and separated. Each device is controlled with its own remote control. This turns the home theater into an uncomfortable, complex technical workplace until the movie is shown.
 
 In order to optimize this situation, it is desirable to combine the individual operating procedures at the push of a button. e.g .:
  * Play the movie with the projector on the screen in a quiet sound mix
@@ -19,6 +19,7 @@ In order to optimize this situation, it is desirable to combine the individual o
    * Adjust the sound volume accordingly depending on the time of day
    * Switch the subwoofer off
    * Open the Bluray Player drive
+   * Switch off the lights or roll down the blinds depending on the time of day
 
 This requires to build up and LAMP Server on a headless Raspberry Pi Zero W. This webserver will provide the website with that and further macro buttons on your mobile phone or tablet. 
 In addition the Raspberry Pi Zero W must be extended by IR Receiver and Transmitter circuits and a 5 V power supply. 
