@@ -57,7 +57,7 @@ This software is backwards compatible JSON files you could have already generate
 
 The "irc_learn.py" uses the LIRC utility "mode2" only to get the temporal definition of the decoded IR signal. From my point of view, we get more precise result, when using a C-compiled program like "LIRC/mode2".
 
-In sending IR signals with "ird-send.py", I use the same raw signal approach like "irrp.py". It is easy to use Raspberry Pi-internal features in Python to output a precise IR signal. 
+In sending IR signals with "irc-send.py", I use the same raw signal approach like "irrp.py". It is easy to use Raspberry Pi-internal features in Python to output a precise IR signal. 
 
 But with this software I go beyond LIRC and "irrp.py". It is capable to precisely immitate the remote controls with double layer protocols, which are build for newer Japanese middle and high class consumer electronics devices.
 
