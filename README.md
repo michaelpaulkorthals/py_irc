@@ -20,11 +20,13 @@ In order to optimize this situation, it is desirable to combine the individual o
    * Switch the subwoofer off
    * Open the Bluray Player drive
 
-This requires to build up and LAMP Server on Raspberry Pi Zero W to provide the website with that and other buttons on your mobile phone or tablet. 
-The Raspberry Pi Zero W must be extended by IR Receiver and Transmitter circuits and a 5 V power supply. 
+This requires to build up and LAMP Server on a headless Raspberry Pi Zero W. This webserver will provide the website with that and further macro buttons on your mobile phone or tablet. 
+In addition the Raspberry Pi Zero W must be extended by IR Receiver and Transmitter circuits and a 5 V power supply. 
 
 The complete device could look like this:
 
 ![Infrared Remote control outside](https://github.com/michaelpaulkorthals/py_irc/blob/main/images/rpi_irc_1.png)
 
 ![Infrared Remote control inside](https://github.com/michaelpaulkorthals/py_irc/blob/main/images/rpi_irc_2.png)
+
+This prototype I have successfully in operation since November 2020.
