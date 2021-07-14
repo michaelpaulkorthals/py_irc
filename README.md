@@ -1,5 +1,5 @@
 # py_irc
-Python infrared remote control utilities for Raspberry Pi
+## Python infrared remote control utilities for Raspberry Pi ##
 
 In the home theater, the devices (e.g. Bluray player, projector, monitor, amplifier, lights, etc.) are usually controlled with infrared remote controls. The problem is that the operation of these devices is completely different and separated. Each device is controlled with its own remote control. This turns the home theater into an uncomfortable, complex technical workplace until the movie is shown.
 
@@ -35,11 +35,13 @@ This prototype I have successfully in operation in my home theatre since Novembe
 As an expierienced DIY home automation expert, you are capable to build this device easily and to have fun on a rainy weekend.
 
 Please note:
-The photo above shows an in-build switching power supply, which converts the power from 230V AC to 5V DC. This needs the skills of a licenced Ham Radio operator, electrician, electrical or electronic engineer. If you don't have these competences, you must replace this by an commercially available plug-in power supply for Raspberry Pi with a low voltage power cord to the device. Keep every time in mind that open voltages over 40 V (e.g. 110 V AC or 230 V AC from the power grid) could cause deadly injuries.
+The photo above shows an in-build switching power supply, which converts the power from 230V AC to 5V DC. This needs the skills of a licenced Ham Radio operator, electrician, electrical or electronic engineer. If you don't have these competences, you must replace this by an commercially available plug-in power supply for Raspberry Pi with a low voltage power cord to the device. 
+
+> Keep every time in mind that open voltages over 40 V (e.g. 110 V AC or 230 V AC from the power grid) could cause deadly injuries.
 
 Study the [schematic diagrams](https://github.com/michaelpaulkorthals/py_irc/blob/main/irc_circuit/irc_circuit.pdf) and data sheets of my infrared remote control in the [irc_circuit folder](https://github.com/michaelpaulkorthals/py_irc/tree/main/irc_circuit).
 May this help your to find a way to design your own device. In the event that you want to adapt the circuit to your own needs or capabilities, I have also stored the files of my ["KiCad"](https://www.kicad.org/) project there.
 
-Software
+## Software ##
 
 
