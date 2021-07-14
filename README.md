@@ -47,7 +47,7 @@ May this help you to find a way to design your own device. In the event that you
 
 ## Software ##
 
-Please note: The 3 Python files I share with you are only working on Debian based Linux on Raspbery Pi hardware and Raspbian Buster+ with Python 3.6+ and LIRC software installed and correctly configured and tested.
+Please note: The 3 Python files I share with you are only working on Debian based Linux on Raspberry Pi hardware and Raspbian Buster+ with Python 3.6+ and LIRC software installed and correctly configured and tested.
 
   * "irc_learn.py": This utility scans the key presses of the original IRC hardware and save these to a JSON data file.
   * "irc_send.py": This utility simulates the key presses of the original IRC hardware, which has been learned before by the "irc_learn.py." and saved to a JSON file.
