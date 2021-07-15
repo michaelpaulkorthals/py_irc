@@ -106,7 +106,7 @@ I will explain this later.
 Learn:
 ```
 mkdir data
-./irc_learn.py -o data/marantz_av_receiver_nr1711.json -kn "sleep power cbl_sat dvd bluray game aux media_player tv_audio 8k tuner usb cd bluetooth heos phono internet_radio ch_page_up ch_page_down eco mute volume_up volume_down info option up left enter right down back setup prev play_pause next 1 2 3 4 green red blue yellow"]`
+./irc_learn.py -o data/marantz_av_receiver_nr1711.json -kn "sleep power cbl_sat dvd bluray game aux media_player tv_audio 8k tuner usb cd bluetooth heos phono internet_radio ch_page_up ch_page_down eco mute volume_up volume_down info option up left enter right down back setup prev play_pause next 1 2 3 4 green red blue yellow"
 ```
 Here the [output JSON file]().
 
