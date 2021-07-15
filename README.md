@@ -33,7 +33,7 @@ Due I don't find Python code for this new challenge, I decided to create my own 
 
 My choice for this appliction is a a Raspberry Pi Zero W with headless Raspbian Buster based on Debian 10 Linux. 
 
-![Raspberry Pi Zero W]()
+![Raspberry Pi Zero W](images/rpi_zero_w.jpg)
 
 It has the capacity to 
   * learn and send the IR signals to the devices in the home theatre
