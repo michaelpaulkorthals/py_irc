@@ -63,7 +63,7 @@ This prototype I have successfully in operation in my home theatre since Novembe
 As an expierienced DIY home automation expert, you shoud be capable to build this device easily, e.g. to have fun on a rainy weekend.
 
 Please note:
-The photo above shows an in-build switching power supply, which converts the power from 230V AC to 5V DC. This needs the skills of a licenced Ham Radio operator, electrician, electrical or electronic engineer. If you don't have these competences, you must replace this by an commercially available plug-in power supply for Raspberry Pi with a low voltage power cord to the device. 
+The photo above shows an in-build switching power supply, which converts the power from 230V AC to 5V DC. This needs the skills of a licenced Ham Radio operator, electrician, electrical or electronic engineer. If you don't have these competence, you are strongly recommended to replace this by an commercially available plug-in power supply for Raspberry Pi with a low voltage power cord to the device. 
 
 > Keep every time in mind that open voltages over 40 V (e.g. 110 V AC or 230 V AC from the power grid) could cause deadly injuries or fire.
 
