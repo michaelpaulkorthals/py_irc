@@ -1,16 +1,18 @@
 # py_irc
 ## Python infrared remote control utilities for Raspberry Pi ##
 
-In the home theater, the devices (e.g. Bluray player, projector, monitor, amplifier, lights, etc.) are usually controlled with infrared remote controls. The problem is that the operation of these devices is completely different and separated. Each device is controlled with its own remote control. This turns the home theater into an uncomfortable, complex technical workplace until the movie is shown.
+In the home theater, the devices (e.g. Bluray player, projector, monitor, amplifier, lights, etc.) are usually controlled with infrared remote controls. The problem is that the operation of these devices is completely different and separated. Each device is controlled with its own remote control. This turns the home theater into an uncomfortable, complex technical workplace like the flight deck of an airliner or like the control center in a nuclear power station.
 
-In order to optimize this situation, it is desirable to combine the individual operating procedures at the push of a single button, e.g.:
- * Play the movie with the projector on the screen in a quiet sound mix
+You will surely agree with me that this is diametrically opposed to your intention to relax after a long day at work with a 3D nature documentary or a Bluray movie.
+
+In order to optimize this situation, it is desirable to combine the individual operating procedures at the push of a **single button**, e.g.:
+ * Play the movie with the projector on the white wall screen in a quiet sound mix
    * Configure the 4x4 4K HDMI Matrix to connect the devices:
      * Input: 4K Bluray Player
      * Output: 4K HDMI to analog 7.1 extractor
      * Output: Projector
    * Turn on the 4K projector
-   * Turn on the 4K Bluray Player
+   * Turn on the 4K Bluray player
    * Enable 4K HDMI to analog 7.1 extractor
    * Switch on dynamic compressor for channels FL, FR, CENTER, SUBW
    * Switch on dynamic compressor for channels SL, SR, RL, RR
@@ -23,11 +25,11 @@ In order to optimize this situation, it is desirable to combine the individual o
 
 In the last weeks I integrated two new devices from Japan into my home theatre. This fails due to neither LIRC nor ["irrp.py"](https://github.com/souri-t/RemoteControl-RPI/blob/master/remote/bin/irrp) were able to learn the codes of the related infrared remote controls. So I spent a day to analyze the IR code sequences from LIRC/mode2. I found the **double layer protocol**. I discovered, that the second key press on the same key has another code than the first key press.  
 
-Due to I found no Python code for this new challenge, I decided to create my own utilities and API to successfully bypass this problem.
+Due to I found no Python code for this new challenge, I decided to create my own utilities and API-module to successfully bypass this problem.
 
 ## Hardware ##
 
-This requires to build up and LAMP Server on a headless Raspberry Pi Zero W. This webserver will provide the website with that and further macro buttons on your mobile phone or tablet. 
+This requires to build up a web service e.g. a [LAMP Stack](https://www.linuxbabe.com/debian/install-lamp-stack-debian-10-buster) on a headless Raspberry Pi Zero W. This webserver will provide the website with your universal remote control. It will include the autopilot to fly your home theatre with maximum comfort.
 
 In addition the Raspberry Pi Zero W must be extended by IR Receiver and Transmitter circuits and a 5 V power supply. 
 
