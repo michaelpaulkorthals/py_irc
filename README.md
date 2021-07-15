@@ -34,8 +34,8 @@ Due I don't find Python code for this new challenge, I decided to create my own 
 May choice for this appliction is a a Raspberry Pi Zero W with headless Raspbian Buster based on Debian 10 Linux. 
 
 It has the capacity to 
-  * provide a website (e.g. [LAMP Stack](https://www.linuxbabe.com/debian/install-lamp-stack-debian-10-buster))
-  * learn and send the IR signals to the devices of the home theatre
+  * learn and send the IR signals to the devices in the home theatre
+  * provide a web application based on middleware (e.g. [LAMP Stack](https://www.linuxbabe.com/debian/install-lamp-stack-debian-10-buster))
   * be administrated via SSH and WinSCP
 
 The Raspberry Pi Zero W must be extended by the following components:
