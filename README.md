@@ -30,6 +30,8 @@ So I spent a few hours to analyze the IR code sequences from LIRC/mode2. I disco
 
 Due I don't find Python code for this new challenge, I decided to create my own utilities and API-module.
 
+Now these are successfully running on my home-brewed **"Infrared Remote Control API Server"**, I share here with you here.
+
 ## Hardware ##
 
 My choice for this appliction is a a Raspberry Pi Zero W with headless Raspbian Buster based on Debian 10 Linux. 
@@ -46,6 +48,7 @@ It has the capacity to
 The Raspberry Pi Zero W must be extended by the following components:
   * [IR Receiver circuit](irc_circuit/irc_circuit.pdf)
   * [IR Transmitter circuit](irc_circuit/irc_circuit.pdf)
+  * MicroSD card
   * 5 V DC power supply
   * Optional: a Micro USB to RJ45 LAN adapter (to ensure minimal response time, if WLAN is jammed)
 
