@@ -70,7 +70,9 @@ The photo above shows an in-build switching power supply, which converts the pow
 Study the [schematic diagrams](irc_circuit/irc_circuit.pdf) and data sheets of my infrared remote control in the [irc_circuit folder](irc_circuit).
 May this help you to find a way to design your own device. In the event that you want to adopt the circuit to your own needs or capabilities, I have also uploaded the files of my ["KiCad"](https://www.kicad.org/) project there.
 
-To mount the device, the most effective point is at a height of 2 meters in a corner of the home theater, where there are no infrared controlled devices. For me this is on the top right of the filing cabinet where I put the DVD/Bluray collection. With the 3 IR LED the device had a wide angle of 150° x 50° and covers all the devices in my home theatre.
+To mount the device, the most effective point is at a height of 2 meters in one of the rear corners of the home theater, where there are no infrared controlled devices. For me this is on the top right of the filing cabinet where I put the DVD/Bluray collection. 
+
+Equipped with 3 infrared LEDs, the device has a beam angle of 150° x 50° and covers all devices in my home theater. The signal to the projector in its wall shelf is successfully reflected by the white wall screen.
 
 ## Software ##
 
