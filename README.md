@@ -70,6 +70,8 @@ The photo above shows an in-build switching power supply, which converts the pow
 Study the [schematic diagrams](irc_circuit/irc_circuit.pdf) and data sheets of my infrared remote control in the [irc_circuit folder](irc_circuit).
 May this help you to find a way to design your own device. In the event that you want to adopt the circuit to your own needs or capabilities, I have also uploaded the files of my ["KiCad"](https://www.kicad.org/) project there.
 
+The most effective point is at a height of 2 meters in a corner of the home theater, where there are no infrared controlled devices. For me this is on the top right of the filing cabinet where I put the DVD/Bluray collection.
+
 ## Software ##
 
 Please note: The 3 Python files I share with you are only working on Debian based Linux on Raspberry Pi hardware and Raspbian Buster+ with Python 3.6+ and LIRC software installed and correctly configured and tested.
