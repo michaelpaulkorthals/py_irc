@@ -30,7 +30,7 @@ So I spent a few hours to analyze the IR code sequences from LIRC/mode2. I disco
 
 Due I don't find Python code for this new challenge, I decided to create my own utilities and API-module.
 
-Now these are successfully running on my home-brewed **"Infrared Remote Control API Server"**, I share here with you here.
+Now these are successfully running on my home-brewed **"Infrared Remote Control API Server"**, I share with you here.
 
 ## Hardware ##
 
