@@ -34,7 +34,7 @@ Now these are successfully running on my home-brewed **"Infrared Remote Control 
 
 ## Hardware ##
 
-My choice for this appliction is a a Raspberry Pi Zero W with headless Raspbian Buster based on Debian 10 Linux. 
+My choice for this appliction is a Raspberry Pi Zero W with headless Raspbian Buster based on Debian 10 Linux. 
 
 ![Raspberry Pi Zero W](images/rpi_zero_w.jpg)
 
@@ -108,10 +108,10 @@ Learn:
 mkdir data
 ./irc_learn.py -o data/marantz_av_receiver_nr1711.json -kn "sleep power cbl_sat dvd bluray game aux media_player tv_audio 8k tuner usb cd bluetooth heos phono internet_radio ch_page_up ch_page_down eco mute volume_up volume_down info option up left enter right down back setup prev play_pause next 1 2 3 4 green red blue yellow"
 ```
-Here the [output JSON file]().
+Result: [Output JSON file](data/marantz_av_receiver_nr1711.json).
 
 Send:
 ```
 $ ./irc_send.py -i data/marantz_av_receiver_nr1711.json -g 17 -kn "volume_up volume_up volume_up volume_up volume_up volume_up volume_up volume_up volume_up volume_up"
 ```
-
+Result: The volume is 10 clicks louder.
