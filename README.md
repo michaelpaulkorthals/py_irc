@@ -60,7 +60,7 @@ The complete device could look like this:
 
 This prototype I have successfully in operation in my home theatre since November 2020.
 
-As an expierienced DIY home automation expert, you are capable to build this device easily, e.g. to have fun on a rainy weekend.
+As an expierienced DIY home automation expert, you shoud be capable to build this device easily, e.g. to have fun on a rainy weekend.
 
 Please note:
 The photo above shows an in-build switching power supply, which converts the power from 230V AC to 5V DC. This needs the skills of a licenced Ham Radio operator, electrician, electrical or electronic engineer. If you don't have these competences, you must replace this by an commercially available plug-in power supply for Raspberry Pi with a low voltage power cord to the device. 
