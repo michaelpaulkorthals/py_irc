@@ -50,8 +50,8 @@ The Raspberry Pi Zero W must be extended by the following components:
   * [IR Transmitter circuit](irc_circuit/irc_circuit.pdf)
   * MicroSD card
   * 5 V DC power supply
-  * Optional: Micro USB to RJ45 LAN adapter (to ensure minimal response time, if WLAN is jammed)
-  * Optional: a heat sink for the CPU and a small fan (if the temperature could be over 25° C) 
+  * Optional: Micro USB to RJ45 LAN adapter (to ensure minimal response time or if WiFi is disturbed by interferences)
+  * Optional: a heat sink for the CPU including a small fan (if the room temperature exceeds 25° C) 
 
 The complete device could look like this:
 
