@@ -50,15 +50,14 @@ The Raspberry Pi Zero W must be extended by the following components:
   * [IR Transmitter circuit](irc_circuit/irc_circuit.pdf)
   * MicroSD card
   * 5 V DC power supply
-  * Optional: a Micro USB to RJ45 LAN adapter (to ensure minimal response time, if WLAN is jammed)
+  * Optional: Micro USB to RJ45 LAN adapter (to ensure minimal response time, if WLAN is jammed)
+  * Optional: a heat sink for the CPU and a small fan (if the temperature could be over 25° C) 
 
 The complete device could look like this:
 
 ![Infrared Remote Control outside](images/rpi_irc_1.png)
 
 ![Infrared Remote Control inside](images/rpi_irc_2.png)
-
-This prototype I have successfully in operation in my home theatre since November 2020.
 
 As an expierienced DIY home automation expert, you shoud be capable to build this device easily, e.g. to have fun on a rainy weekend.
 
@@ -73,6 +72,8 @@ May this help you to find a way to design your own device. In the event that you
 To mount the device, the most effective point is at a height of 2 meters in one of the rear corners of the home theater, where there are no infrared controlled devices. For me this is on the top right of the filing cabinet where I put the DVD/Bluray collection. 
 
 Equipped with 3 infrared LEDs, the device has a beam angle of 150° x 50° and covers all devices in my home theater. The signal to the projector in its wall shelf is successfully reflected by the white wall screen.
+
+This prototype I have successfully in operation in my home theatre since November 2020.
 
 ## Software ##
 
