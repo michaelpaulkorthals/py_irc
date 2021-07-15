@@ -3,7 +3,7 @@
 
 In the home theater, the devices (e.g. Bluray player, projector, monitor, amplifier, lights, etc.) are usually controlled with infrared remote controls. The problem is that the operation of these devices is completely different and separated. Each device is controlled with its own remote control. This turns the home theater into an uncomfortable, complex technical workplace like the flight deck of an airliner or like the control center in a nuclear power station.
 
-You will surely agree with me that this is diametrically opposed to your intention to relax after a long day at work with a lovely 3D nature documentary or an exciting Bluray movie.
+You will surely agree with me that this is diametrically opposed to your intention to relax after a long day at work with a lovely 3D nature documentary, an interesting kind of celtic history fantasy love adventure TV series or an exciting Bluray science fiction movie.
 
 In order to optimize this situation, it is desirable to combine the individual operating procedures at the **push of a single button**, e.g.:
  * Play the movie with the projector on the white wall screen in a quiet sound mix
