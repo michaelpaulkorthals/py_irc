@@ -21,7 +21,7 @@ In order to optimize this situation, it is desirable to combine the individual o
    * Adjust the sound volume accordingly depending on the time of day
    * Switch the subwoofer off
    * Open the Bluray player drive
-   * Wait until the user inserted a disk into the player drive 
+   * Wait until the user inserted a disk into the player drive and finally has taken seat
    * Switch off the lights or roll down the blinds depending on the time of day and season
 
 In the last weeks I integrated two new devices from Japan into my home theatre. This fails due to neither LIRC nor [irrp.py](https://github.com/souri-t/RemoteControl-RPI/blob/master/remote/bin/irrp) were able to learn the codes of the related infrared remote controls. 
