@@ -32,6 +32,7 @@ import datetime
 import json
 import os
 import sys
+import threading
 import time
 
 # Import community libraries
@@ -62,6 +63,9 @@ class UniversalRemoteControl:
 	
 	## Output verbose information. Default: False.
 	verbose = False
+	
+	## Lock for avoiding parallel transmissions.
+	lock_transmission = threading.RLock()
 	
 	## CONSTRUCTOR.
 	#
@@ -139,6 +143,10 @@ class UniversalRemoteControl:
 		self.pi.stop() 
 	
 	## Send the IR signals sequence for specific key to a specific device.
+	#  <br>
+	#  This sending routine is thread-safe. It avoids parallel transfers 
+	#  if it is called simultaneously in parallel threads, 
+	#  using the FIFO principle to queue the transfers.
 	#  
 	#  @param device_name Name of the IR-controlled device (see file name without extension in the "./data" folder.
 	#  @param key_name Name of the key on the IR remote control (e.g. "power", "on", "off", etc.). 
@@ -217,6 +225,10 @@ class UniversalRemoteControl:
 		else:
 			sys.stderr.write(f'ERROR: Unknown protocol type "{key_type}".\n')
 			return 1
+		# WAIT FOR TRANSMISSION PERMISSION  
+		self.lock_transmission.acquire() 
+		# TRANSMISSION IS ALLOWED NOW
+		# OTHER TRANSMISSIONS ARE NOT PERMITTED TO SEND NOW
 		if self.verbose: sys.stdout.write('Sending ...\n')
 		# Send the IR signal sequences
 		for m in range(0, len(sequences)):
@@ -261,6 +273,8 @@ class UniversalRemoteControl:
 					time.sleep(0.002)
 				self.pi.wave_delete(po)
 		if self.verbose: sys.stdout.write('... sent.\n')
+		# ALLOW THE NEXT OTHER TRANSMISSION
+		self.lock_transmission.release()
 		# After the IR signal has been sent 
 		if key_type == 2:
 			# Double layer protocol
